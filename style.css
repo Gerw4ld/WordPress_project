@@ -3,6 +3,18 @@ Theme Name: MyTheme
 Auth: Gerwald Gindra-Vady
  */
 
-body{
-    background-color: black;
+body {
+    background-color: #e7e7e7;
+}
+
+header {
+    background: white;
+    width: 100%;
+    height: 100px;
+}
+
+.navigation{
+    background-color:lavenderblush;
+    display: flex;
+    align-self: center;
 }
