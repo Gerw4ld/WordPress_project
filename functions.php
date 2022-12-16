@@ -11,6 +11,7 @@ function load_stylesheets()
     wp_enqueue_style('style');
 
 }
+
 add_action('wp_enqueue_scripts', 'load_stylesheets');
 
 
@@ -23,6 +24,7 @@ function include_jquery()
 
     add_action('wp_enqueue_scripts', 'jquery');
 }
+
 add_action('wp_enqueue_scripts', 'include_jquery');
 
 
@@ -33,6 +35,7 @@ function loadjs()
     wp_enqueue_script('customJS');
 
 }
+
 add_action('wp_enqueue_scripts', 'loadjs');
 
 

@@ -13,8 +13,8 @@ header {
     height: 100px;
 }
 
-.navigation{
-    background-color:lavenderblush;
+.navigation {
+    background-color: lavenderblush;
     display: flex;
     align-self: center;
 }
