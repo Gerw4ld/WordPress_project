@@ -1,6 +1,12 @@
 <?php get_header(); ?>
 
     <section class="page-wrap">
+
+        <div class="container pt-5 pb-5">
+
+            <?php get_template_part('blocks/heroBanner'); ?>
+
+        </div>
         <div class="container pt-5 pb-5">
 
             <?php the_title(); ?>
@@ -26,8 +32,10 @@
             </div>
 
 
-            <?php get_template_part('blocks/heroBanner'); ?>
         </div>
+
+
+
     </section>
 
 <?php get_footer(); ?>

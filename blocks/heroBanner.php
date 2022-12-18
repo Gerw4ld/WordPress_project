@@ -1,5 +1,17 @@
-<?php if (have_posts()) : while (have_posts()): the_post(); ?>
+<?php $heroBanner = get_field('heroBanner');?>
 
-    <?php the_content(); ?>
+<div class="container">
 
-<?php endwhile; else: endif; ?>
+    <h1><?php echo $heroBanner['title'];?></h1>
+    <p><?php echo $heroBanner['text'];?></p>
+
+    <p>
+    <a href={<?php echo $heroBanner['link'];?>}>
+        <?php echo $heroBanner['link_text'];?>
+    </a>
+    </p>
+
+
+</div>
+
+

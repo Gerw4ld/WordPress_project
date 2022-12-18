@@ -44,7 +44,8 @@ add_theme_support('menus');
 
 register_nav_menus(
     array(
-        'top-menu' => __('Top Menu', 'theme')
+        'top-menu' => __('Top Menu', 'theme'),
+        'mobile-menu' => __('Mobile Menu', 'theme')
     )
 );
 

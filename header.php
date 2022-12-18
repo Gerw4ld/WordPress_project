@@ -15,16 +15,17 @@
 body_class(); ?>>
 
 
-<header class='sticky-top'>
-
-    <div class="conatiner">
+<header>
+    <div class="container">
         <?php wp_nav_menu(
             array(
                 'theme_location ' => 'top_menu',
-                'menu_class' => 'navigation'
+//                'menu'=> 'Top Menu',
+                'menu_class' => 'top_menu'
             )
         ); ?>
     </div>
+
 
 </header>
 
