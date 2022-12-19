@@ -1,10 +1,10 @@
 <?php $mainInfo = get_field('mainInfo'); ?>
 
-<div style="background: #354a60">
+<div style="background: #beaf82">
 
     <div class="p-5 text-white">
         <h2 class="mb-3"><?php echo $mainInfo['title']; ?></h2>
-        <p class="mb-3 w-[50px]"><?php echo $mainInfo['text']; ?></p>
+        <p class="mb-3 w-50"><?php echo $mainInfo['text']; ?></p>
     </div>
 
     <div class="pb-5 container d-flex justify-content-center">
