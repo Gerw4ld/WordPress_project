@@ -2,7 +2,7 @@
 
     <section class="page-wrap">
 
-        <div class="container pt-5 pb-5">
+        <div >
 
             <?php get_template_part('blocks/heroBanner'); ?>
 
