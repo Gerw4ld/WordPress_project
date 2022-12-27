@@ -49,5 +49,6 @@ register_nav_menus(
     )
 );
 
+
 add_image_size('smallest', 240, 160, true);
 add_image_size('largest', 800, 480, true);
