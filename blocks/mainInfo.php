@@ -1,4 +1,5 @@
-<?php $mainInfo = get_field('mainInfo'); ?>
+<?php $mainInfo = get_field('mainInfo');
+$images = $mainInfo['images']; ?>
 
 <div style="background: #beaf82">
 
@@ -9,17 +10,17 @@
 
     <div class="pb-5 container d-flex justify-content-center">
         <?php
-        $image1 = $mainInfo['image1'];
+        $image1 = $images['image1'];
         if (!empty($image1)): ?>
             <img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>"/>
         <?php endif; ?>
         <?php
-        $image2 = $mainInfo['image2'];
+        $image2 = $images['image2'];
         if (!empty($image2)): ?>
             <img src="<?php echo esc_url($image2['url']); ?>" alt="<?php echo esc_attr($image2['alt']); ?>"/>
         <?php endif; ?>
         <?php
-        $image3 = $mainInfo['image3'];
+        $image3 = $images['image3'];
         if (!empty($image3)): ?>
             <img src="<?php echo esc_url($image3['url']); ?>" alt="<?php echo esc_attr($image3['alt']); ?>"/>
         <?php endif; ?>
