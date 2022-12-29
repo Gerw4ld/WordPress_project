@@ -53,7 +53,44 @@ header .top_menu li:last-child a {
     padding: 2rem 0;
 }
 
-.colorGreen{
-    background: #0c4128;
-    color: #0c4128;
+/* main info onClick show and hide */
+
+#text1 {
+    visibility: hidden;
 }
+
+#toggle1:checked ~ #text1 {
+    visibility: visible;
+}
+
+#text2 {
+    visibility: hidden;
+}
+
+#toggle2:checked ~ #text2 {
+    visibility: visible;
+}
+
+#text3 {
+    visibility: hidden;
+}
+
+#toggle3:checked ~ #text3 {
+    visibility: visible;
+}
+
+#toggle1 {
+    opacity: 0;
+}
+
+#toggle2 {
+    opacity: 0;
+}
+
+#toggle3 {
+    opacity: 0;
+}
+
+
+
+
