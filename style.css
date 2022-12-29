@@ -52,3 +52,7 @@ header .top_menu li:last-child a {
 .page-wrap {
     padding: 2rem 0;
 }
+
+.colorGreen{
+    background: #0c4128;
+}

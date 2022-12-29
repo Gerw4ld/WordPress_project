@@ -1,4 +1,5 @@
-<?php $heroBanner = get_field('heroBanner'); ?>
+<?php $heroBanner = get_field('heroBanner');
+$button = $heroBanner['button'] ?>
 
 <div class="text-center bg-image "
      style="background-image:url(<?php $image = $heroBanner['image'];
@@ -9,10 +10,9 @@
          style="background-color: rgba(0, 0, 0, 0.1);">
         <h1 class="mb-3"><?php echo $heroBanner['title']; ?></h1>
         <p class="mb-3"><?php echo $heroBanner['text']; ?></p>
-        <a class="btn btn-outline-light btn-lg" href={<?php echo $heroBanner['link']; ?>} role="button">
-            <?php echo $heroBanner['link_text']; ?>
+        <a class="btn btn-outline-light btn-lg" href={<?php echo $button['buttonLink']; ?>} role="button">
+            <?php echo $button['buttonText']; ?>
         </a>
-
     </div>
 </div>
 

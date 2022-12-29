@@ -15,7 +15,7 @@ $employee3 = $ourTeam['employee3']; ?>
             <?php
             $image1 = $employee1['imageEmployee1'];
             if (!empty($image1)): ?>
-                <img width="200px" height="200px" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>"/>
+                <img style="border-radius: 50%" width="200px" height="200px" src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>"/>
             <?php endif; ?>
             <p style="font-weight: bold" class="mb-3 w-50"><?php echo $employee1['nameEmployee1']; ?></p>
             <p class="mb-3 w-50"><?php echo $employee1['roleEmployee1']; ?></p>
@@ -24,7 +24,7 @@ $employee3 = $ourTeam['employee3']; ?>
             <?php
             $image2 = $employee2['imageEmployee2'];
             if (!empty($image2)): ?>
-                <img width="200px" height="200px" src="<?php echo esc_url($image2['url']); ?>" alt="<?php echo esc_attr($image2['alt']); ?>"/>
+                <img style="border-radius: 50%" width="200px" height="200px" src="<?php echo esc_url($image2['url']); ?>" alt="<?php echo esc_attr($image2['alt']); ?>"/>
             <?php endif; ?>
             <p style="font-weight: bold"  class="mb-3 w-50"><?php echo $employee2['nameEmployee2']; ?></p>
             <p class="mb-3 w-50"><?php echo $employee2['roleEmployee2']; ?></p>
@@ -33,7 +33,7 @@ $employee3 = $ourTeam['employee3']; ?>
             <?php
             $image3 = $employee3['imageEmployee3'];
             if (!empty($image3)): ?>
-                <img width="200px" height="200px" src="<?php echo esc_url($image3['url']); ?>" alt="<?php echo esc_attr($image3['alt']); ?>"/>
+                <img style="border-radius: 50%" width="200px" height="200px" src="<?php echo esc_url($image3['url']); ?>" alt="<?php echo esc_attr($image3['alt']); ?>"/>
             <?php endif; ?>
             <p style="font-weight: bold" class="mb-3 w-50"><?php echo $employee3['nameEmployee3']; ?></p>
             <p class="mb-3 w-50"><?php echo $employee3['roleEmployee3']; ?></p>

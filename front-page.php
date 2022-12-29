@@ -27,6 +27,18 @@
 
         </div>
 
+        <div >
+
+            <?php get_template_part('blocks/interest'); ?>
+
+        </div>
+
+        <div >
+
+            <?php get_template_part('blocks/textField'); ?>
+
+        </div>
+
         <div class="container pt-5 pb-5">
 
             <?php the_title(); ?>
