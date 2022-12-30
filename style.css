@@ -56,27 +56,27 @@ header .top_menu li:last-child a {
 /* main info onClick show and hide */
 
 #text1 {
-    visibility: hidden;
+    display: none;
 }
 
 #toggle1:checked ~ #text1 {
-    visibility: visible;
+    display: block;
 }
 
 #text2 {
-    visibility: hidden;
+    display: none;
 }
 
 #toggle2:checked ~ #text2 {
-    visibility: visible;
+    display: block;
 }
 
 #text3 {
-    visibility: hidden;
+    display: none;
 }
 
 #toggle3:checked ~ #text3 {
-    visibility: visible;
+    display: block;
 }
 
 #toggle1 {
@@ -91,6 +91,32 @@ header .top_menu li:last-child a {
     opacity: 0;
 }
 
+/* impressum onClick show and hide */
 
+#impressumText {
+    display: none;
+}
+
+#impressumToggle:checked ~ #impressumText {
+    display: block;
+}
+
+#impressumToggle:checked ~ #arrow {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+#impressumToggle {
+    opacity: 0;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
 
 
